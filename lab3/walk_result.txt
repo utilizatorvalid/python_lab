@@ -1,0 +1,16 @@
+.name | D:\Laboratories_python\.idea | name
+Laboratories_python.iml | D:\Laboratories_python\.idea | iml
+misc.xml | D:\Laboratories_python\.idea | xml
+modules.xml | D:\Laboratories_python\.idea | xml
+workspace.xml | D:\Laboratories_python\.idea | xml
+ex1.py | D:\Laboratories_python\lab4 | py
+ex2.py | D:\Laboratories_python\lab4 | py
+ex3.py | D:\Laboratories_python\lab4 | py
+ex4.py | D:\Laboratories_python\lab4 | py
+ex5.py | D:\Laboratories_python\lab4 | py
+os_env.txt | D:\Laboratories_python\lab4 | txt
+walk_result.txt | D:\Laboratories_python\lab4 | txt
+file | D:\Laboratories_python\lab4\A | file
+ex1.py | D:\Laboratories_python\Test1 | py
+ex2.py | D:\Laboratories_python\Test1 | py
+ex3.py | D:\Laboratories_python\Test1 | py

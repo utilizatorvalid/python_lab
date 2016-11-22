@@ -1,0 +1,42 @@
+PYTHONIOENCODING   UTF-8
+SYSTEMDRIVE   C:
+COMMONPROGRAMW6432   C:\Program Files\Common Files
+PUBLIC   C:\Users\Public
+SYSTEMROOT   C:\Windows
+FP_NO_HOST_CHECK   NO
+PATHEXT   .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+TEMP   C:\Users\L\AppData\Local\Temp
+WINDOWS_TRACING_LOGFILE   C:\BVTBin\Tests\installpackage\csilogfile.log
+WINDOWS_TRACING_FLAGS   3
+COMPUTERNAME   L-PC
+PROGRAMFILES   C:\Program Files
+PATH   C:\Program Files\Python35\Scripts\;C:\Program Files\Python35\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\L\AppData\Local\atom\bin;\Scripts;C:\Python27;C:\Users\L\AppData\Roaming\npm;C:\Users\L\AppData\Local\atom\bin
+APPDATA   C:\Users\L\AppData\Roaming
+ALLUSERSPROFILE   C:\ProgramData
+LOGONSERVER   \\L-PC
+OS   Windows_NT
+PROGRAMDATA   C:\ProgramData
+WINDIR   C:\Windows
+LOCALAPPDATA   C:\Users\L\AppData\Local
+MOZ_PLUGIN_PATH   C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+PSMODULEPATH   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+USERNAME   L
+PROGRAMW6432   C:\Program Files
+TMP   C:\Users\L\AppData\Local\Temp
+SESSIONNAME   Console
+PROGRAMFILES(X86)   C:\Program Files (x86)
+PROCESSOR_LEVEL   6
+HOMEPATH   \Users\L
+COMMONPROGRAMFILES(X86)   C:\Program Files (x86)\Common Files
+COMSPEC   C:\Windows\system32\cmd.exe
+NUMBER_OF_PROCESSORS   4
+PYTHONPATH   D:\Laboratories_python
+USERPROFILE   C:\Users\L
+HOMEDRIVE   C:
+COMMONPROGRAMFILES   C:\Program Files\Common Files
+PROCESSOR_REVISION   2a07
+PROCESSOR_ARCHITECTURE   AMD64
+PYCHARM_HOSTED   1
+PYTHONUNBUFFERED   1
+USERDOMAIN   L-PC
+PROCESSOR_IDENTIFIER   Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
