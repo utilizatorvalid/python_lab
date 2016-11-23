@@ -4,17 +4,16 @@
 # Observatie: In cazul in care listele primite ca input nu au acelasi numar de elemente,
 # elementele lipsa vor fi inlocuite cu None pentru a putea fi generate max([len(x) for x in input_lists]) tuple.
 
+
 def get_tuple(*params):
-    max_len=max([len(x) for x in params])
-    new_lists=[]
+    max_len = max([len(x) for x in params])
+    new_lists = []
     for elem in params:
-        x= len(elem)
+        x = len(elem)
         elem.extend([None for i in range(x, max_len)])
         new_lists.append(elem)
 
     return list(zip(*new_lists))
-print(get_tuple([1,2,3], [5,6,7],["a", "b"]))
 
 
-
-
+print(get_tuple([1, 2, 3], [5, 6, 7], ["a", "b"]))

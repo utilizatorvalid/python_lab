@@ -4,7 +4,7 @@ def func(list_a, list_b):
     Function returns
     :param list_a:
     :param list_b:
-    :return:
+    :return: list_a and list_b, list_a or list_b, list_a - list_b, list_b - list_a
     '''
 
     def remove_dublicates(numbers):
@@ -24,4 +24,4 @@ def func(list_a, list_b):
     return a_and_b, a_or_b, a_minus_b, b_minus_a
 
 
-print(func([1,2,3,1],[1,2,6]))
+print(func([1, 2, 3, 1], [1, 2, 6]))

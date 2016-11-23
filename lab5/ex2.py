@@ -12,7 +12,7 @@ def first_4096():
         with open(path, 'rt') as file:
             print(file.read(4096))
     except IOError as e:
-        print('File couldn\'t be read, or this isn\'t a file')
+        print('File could not be read, or this isn\'t a file')
         if os.path.isdir(path):
             print("Yeah this is an directory here is this content :D")
             print(os.listdir(path))

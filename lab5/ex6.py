@@ -21,7 +21,8 @@ def copy_file(file_path, dir_path, buffer=4096):
             file_to.write(content)
             content = file_from.read(buffer)
 
+
 if __name__ == "__main__":
-    file_path = input("file to copy >>")
-    dir_path = input('dir copy to >>')
-    copy_file(file_path, dir_path)
+    file_path_in = input("file to copy >>")
+    dir_path_out = input('dir copy to >>')
+    copy_file(file_path_in, dir_path_out)

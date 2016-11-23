@@ -19,5 +19,5 @@ def parse_folder(path, depth=0):
 
 
 if __name__ == "__main__":
-    # parse_folder('D:\Laboratories_python')
-    parse_folder("")
+    parse_folder('D:\Laboratories_python')
+    # parse_folder("")

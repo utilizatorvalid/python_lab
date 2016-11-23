@@ -11,12 +11,15 @@ def parse_and_write(path, filename):
 
     for path, dirs, files in os.walk(path):
         for file in files:
-            paths.append("{f} | {d} | {type}".format(f=file,d=path,type=file.split('.')[-1]))
+            paths.append("{f} | {d} | {type}".format(f=file,
+                                                     d=path,
+                                                     type=file.split('.')[-1]
+                                                     )
+                         )
 
     with open(filename, 'wt') as file:
         file.writelines("\n".join(paths))
 
 
-
 if __name__ == "__main__":
-    parse_and_write("D:\Laboratories_python",'walk_result.txt')
+    parse_and_write("D:\Laboratories_python", 'walk_result.txt')

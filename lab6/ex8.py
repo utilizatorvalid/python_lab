@@ -7,7 +7,7 @@ import re
 import os
 
 
-def recurive_matching(path, regex, r=None):
+def recursive_matching(path, regex, r=None):
     if r is None:
         r = re.compile(regex)
 
@@ -35,4 +35,4 @@ def recurive_matching(path, regex, r=None):
 
 
 if __name__ == "__main__":
-    recurive_matching('C:', 'ex\d')
+    recursive_matching('C:', 'ex\d')
