@@ -9,4 +9,4 @@ def get_words(string):
 
 
 if __name__ == "__main__":
-    print(get_words("Vasile are 12 mere frumoase2 !!!"))
+    print(get_words("Vasile are 12 mere frumoase !!!"))

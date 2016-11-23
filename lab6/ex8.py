@@ -18,21 +18,22 @@ def recursive_matching(path, regex, r=None):
             file_name_match = False
             if r.match(file):
                 file_name_match = True
-            with open(file_path,'rb') as f:
+            with open(file_path, 'rt') as f:
                 try:
                     file_content = f.read()
-                    file_content.decode('ascii')
-                    print(file_content)
+                    # file_content.decode('ascii')
+                    # print(file_content)
                     match_obj = r.search(file_content)
                     if match_obj:
                         content_match = True
                 except Exception as e:
-                    raise Exception("can't open or read file : " + os.path.sep.join([path, file]), e)
+                    pass
+                    # raise Exception("can't open or read file : " + os.path.sep.join([path, file]), e)
             if content_match and file_name_match:
-                print('>>' + file_path)
+                print('>>   ' + file_path)
             elif content_match or file_name_match:
                 print(file_path)
 
 
 if __name__ == "__main__":
-    recursive_matching('C:', 'ex\d')
+    recursive_matching(r'D:\Laboratories_python', 'ex\d')

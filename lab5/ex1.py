@@ -45,4 +45,4 @@ def op(a, b):
 if __name__ == "__main__":
     op(1, 2)
     # op(1, 0)
-    op('alfa', 5)
+    # op('alfa', 5)
