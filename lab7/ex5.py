@@ -3,3 +3,12 @@
 # iar al doilea script va adauga intr-o arhiva toate fisierele
 # cu size mai mic de 100kb si modificate cu cel mult 5 minute in urma
 # (nu va fi adaugat acelasi fisier de 2 ori).
+
+
+import json
+
+with open('ex4serialisation.json', 'rt') as f:
+    data = f.read()
+d = json.loads(data)
+
+print(d)

@@ -7,13 +7,12 @@
 
 def op(a, b):
     try:
-        raise ArithmeticError
         print('{op1}-{op2}={rez}'.format(op1=a,
                                          op2=b,
                                          rez=a - b
                                          ))
     except ArithmeticError as e:
-        raise e('ArithmeticError on - operation')
+        print('ArithmeticError on - operation')
 
     try:
         print('{op1}+{op2}={rez}'.format(op1=a,
@@ -46,4 +45,4 @@ def op(a, b):
 if __name__ == "__main__":
     op(1, 2)
     # op(1, 0)
-    op('alfa' , 5)
+    # op('alfa', 5)
